@@ -11,15 +11,15 @@
     --hue-color: 250; 
 
 
-    --first-color: hs1(var(--hue-color), 69%, 61%);
-    --first-color-second: hs1(var(--hue-color), 69%, 61%);
-    --first-color-alt: hs1(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hs1(var(--hue-color), 92%, 85%);
-    --title-color: hs1(var(--hue-color), 8%, 15%);
-    --text-color: hs1(var(--hue-color), 8%, 45%);;
-    --text-color-light: hs1(var(--hue-color), 8%, 65%);;
-    --input-color: hs1(var(--hue-color), 70%, 96%);
-    --body-color: hs1(var(--hue-color), 60%, 99%);
+    --first-color: hsl(var(--hue-color), 69%, 61%);
+    --first-color-second: hsl(var(--hue-color), 69%, 61%);
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
+    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
+    --title-color: hsl(var(--hue-color), 8%, 15%);
+    --text-color: hsl(var(--hue-color), 8%, 45%);;
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);;
+    --input-color: hsl(var(--hue-color), 70%, 96%);
+    --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #fff;
 
     /*========== Font and typography ==========*/
