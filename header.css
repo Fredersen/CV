@@ -72,3 +72,14 @@ h1 {
     height: 3rem;
 }
 
+#scroll_to_top {
+    position: fixed;
+    width: 35px;
+    height: 55px;
+    bottom: 60px;
+    right: 12px;
+  }
+  #scroll_to_top img {
+    height:max-content;
+    width: max-content;
+  }

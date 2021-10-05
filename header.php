@@ -1,5 +1,5 @@
 
-<header>
+<header id="header">
   <div class="firstpart-header">
     <div class="logo-header">
       <i class="fab fa-linkedin-in fa-2x"></i>
@@ -17,3 +17,7 @@
     <input class="Contact-me" type="button" value="Contact me">
   </div>
 </header>
+
+<div id="scroll_to_top">
+    <a href="#header"><img src="Ressources/up-arrow.png" alt="Retourner en haut" /></a>
+</div>

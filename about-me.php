@@ -1,4 +1,4 @@
-<h2 class="about-me">About me</h2>
+<h2 id="about" class="about-me">About me</h2>
 <p class="my-intro">My introduction</p>
 <img src="Ressources/keanu-reeves-fb.jpg" alt="a pic of me" class="img-aboutme" />
 <p class="text-aboutme">

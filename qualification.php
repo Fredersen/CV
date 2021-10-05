@@ -1,7 +1,7 @@
 
 
     <!--==================== QUALIFICATION ====================-->
-    <section class="qualification section">
+    <section id="qualification" class="qualification section">
         <h2 class="section__title">Qualification</h2>
         <span class="section__subtitle">My personal journey</span>
 

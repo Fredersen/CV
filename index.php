@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="contact.css" />
     <link rel="stylesheet" type="text/css" href="header.css" />
     <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link rel="stylesheet" type="text/css" href="services.css" />
     <link rel="stylesheet" type="text/css" href="skills.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Document</title>
@@ -18,6 +19,7 @@
 include("header.php");
 include("about-me.php");
 include("skills.php");
+include("services.php");
 include("qualification.php");
 include("contact.php");
 include("menu.php");
@@ -26,5 +28,6 @@ include("menu.php");
     <script src="menu.js"></script>
     <script src="qualification.js"></script>
     <script src="skills.js"></script>
+    <script src="services.js"></script>
 </body>
 </html>
