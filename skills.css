@@ -35,6 +35,11 @@
     transition: .4s;
 }
 
+.skills_list{
+    row-gap: 1.5rem;
+    padding-left: 2.7rem;
+}
+
 .skills_titles{
     display: flex;
     justify-content: space-between;
@@ -61,15 +66,57 @@
     background-color: var(--first-color);
 }
 
+.skills_html{
+    width: 90%;
+}
+
+.skills_css{
+    width: 80%;
+}
+
+.skills_js{
+    width: 60%;
+}
+
+.skills_react{
+    width: 85%;
+}
+
+.skills_php{
+    width: 80%;
+}
+.skills_node{
+    width: 70%;
+}
+
+.skills_firebase{
+    width: 90%;
+}
+
+.skills_python{
+    width: 55%;
+}
+
+.skills_figma{
+    width: 90%;
+}
+
+.skills_sketch{
+    width: 85%;
+}
+
+.skills_photoshop{
+    width: 80%;
+}
+
 .skills_close .skills_list{
     height: 0;
     overflow: hidden;
-
 }
 
 .skills_open .skills_list{
     height: max-content;
-    margin-bottom: var (--mb-2-5);
+    margin-bottom: var(--mb-2-5);
 }
 
 .skills_open .skills_arrow{
