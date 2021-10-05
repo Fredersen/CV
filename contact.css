@@ -34,7 +34,7 @@
 .contact_subtitle{
     font-size: 0.8rem;
     color: rgb(119, 114, 114);
-    margin: 1rem;
+    margin: 1.5rem;
 }
 
 .contact_content{
@@ -89,17 +89,6 @@ body{
     font-size: 1rem;
     display: flex;
     justify-content: center;
-}
-.footer_links{
-    display: flex;
-    flex-direction: column;
-    row-gap: 0.2rem;
-}
-.footer_link{
-    color: black;
-}
-.footer_link:hover{
-    color: white;
 }
 .footer_socials{
     font-size: 1.25rem;

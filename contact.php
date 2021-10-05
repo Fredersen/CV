@@ -70,29 +70,6 @@
                 <span class="footer_subtitle">Web Developer</span>
             </div>
 
-            <ul class="footer_links">
-                <li>
-                    <a href="#Home" class="footer_link">Home</a>
-                </li>
-                <li>
-                    <a href="#About" class="footer_link">About</a>
-                </li>
-                <li>
-                    <a href="#skills" class="footer_link">Skills</a>
-                </li>
-                <li>
-                    <a href="#qualifications" class="footer_link">Qualifications</a>
-                </li>
-                <li>
-                    <a href="#service" class="footer_link">Services</a>
-                </li>
-                <li>
-                    <a href="#portfolio" class="footer_link">Portfolio</a>
-                </li>
-                <li>
-                    <a href="#contact" class="footer_link">Contact</a>
-                </li>
-            </ul>
             <div class="footer_socials">
                 <a href="https://www.facebook.com/" target="_blank" class="footer_socials">
                     <i class="fab fa-facebook-f"></i>
