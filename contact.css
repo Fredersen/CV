@@ -27,9 +27,9 @@
 }
 
 .contact_title{
-    font-size: 1rem;
-    font-weight: var(--font-mediium);
-    
+    font-size: 0.938rem;
+    font-weight: bold;
+
 }
 .contact_subtitle{
     font-size: 0.8rem;
