@@ -46,7 +46,8 @@ i{
     height: 50vh;
     display: flex;
     flex-direction: column;
-  
+    align-items: center;
+    text-align: center;
 }
 
 h1 {
@@ -66,10 +67,30 @@ h1 {
     margin-right: 1rem;
 }
 
-.secondpart-header>input{
-    margin-left: 1rem;
-    margin-right: 16rem;
-    height: 3rem;
+
+
+.contact_me{
+    margin-top: 2rem;
+    height: 4rem;
+    width: 15rem;
+    border: 2px solid currentColor;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+    overflow: hidden;
+    transition: 0.5s all ease-in-out;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact_me:hover{
+    border: 2px solid transparent;
+    background-color: black;
+    color: white;
 }
 
 #scroll_to_top {
@@ -79,6 +100,7 @@ h1 {
     bottom: 60px;
     right: 12px;
   }
+
   #scroll_to_top img {
     height:max-content;
     width: max-content;

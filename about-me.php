@@ -25,4 +25,8 @@
         <p>Worked</p>
     </div>
 </div>
-<input class="download" type="button" value="Download CV">'
+<a href="#" class="btn-slide2">
+  <span class="circle2"><i id="fa_down" class="fa fa-download"></i></span>
+  <span class="title2">Download CV</span>
+  <span class="title-hover2">Click here</span>
+</a>

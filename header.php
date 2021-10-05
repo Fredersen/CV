@@ -14,7 +14,7 @@
     <h1>Hi, I'm Keanue</h1>
     <h2>Frontend developer</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptatum, architecto quisquam vel voluptatibus amet ipsam magnam nulla, totam pariatur maxime, fugit excepturi! Quidem ducimus, sint tempore placeat libero quae!</p>
-    <input class="Contact-me" type="button" value="Contact me">
+    <a class="contact_me" href="#contact">Contact me</a>
   </div>
 </header>
 
