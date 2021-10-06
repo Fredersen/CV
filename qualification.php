@@ -1,9 +1,7 @@
-
-
-    <!--==================== QUALIFICATION ====================-->
-    <section id="qualification" class="qualification section">
+  <!--==================== QUALIFICATION ====================-->
+  <section class="qualification section">
         <h2 class="section__title">Qualification</h2>
-        <span class="section__subtitle">My personal journey</span>
+        <!-- <span class="section__subtitle">My personal journey</span>   !!!!!!!!   PAS MOYEN D'ALIGNER CE SPAN   !!!!!!!!-->
 
         <div class="qualification__container container">
             <div class="qualification__tabs">
@@ -16,7 +14,9 @@
                     <i class="uil uil-briefcase-alt qualification__icon"></i>
                     Work
                 </div>
-                
+            </div>
+
+            <div>
                 <div class="qualification__sections">
                     <!------------------------------------------------------- Qualification content 1 -------------------------------------------------------->
                     <div class="qualification__content qualification__active"data-content id="education" >
@@ -71,7 +71,7 @@
 
                             <div>
                                 <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
+                                <span class="qualification__line"></span>
                             </div>
                         </div>
 
@@ -81,7 +81,7 @@
 
                             <div>
                                 <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
+                                <span class="qualification__line"></span>
                             </div>
                             <div>
                                 <h3 class="qualification__title">Computer Enginner</h3>
