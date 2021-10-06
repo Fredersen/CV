@@ -14,7 +14,7 @@
             <p>Services</p>
           </a></li>
         <li id="portfolio"><a href="#qualification"><img src="Ressources/landscape.png" class="img_menu">
-            <p>Portfolio</p>
+            <p>Qualification</p>
           </a></li>
         <li id="contact"><a href="#contact"><img src="Ressources/send.png" class="img_menu">
             <p>Contact me</p>

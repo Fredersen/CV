@@ -81,3 +81,13 @@
     color: var(--first-color);
 }
 
+/* Ajout de naim */
+
+#qualification {
+    margin-top: 3rem;
+    height: 100vh;
+}
+
+.qualification__data{
+    margin-top: 2rem;
+}
