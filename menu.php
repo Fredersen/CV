@@ -22,7 +22,7 @@
       </ul>
     </div>
     <div class="flex_nav">
-    <div class="brand-title">Keanue Reeves</div>
+    <div class="brand-title">Thomas Andersen</div>
     <a href="matrix/matrix.html" class="matrix_mode"><img src="Ressources/icons8-néo.svg" id="neo_img"></a>
     <a class="toggle-button">
       <span class="bar" id="line1"></span>

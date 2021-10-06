@@ -5,32 +5,41 @@
 
         <div class="contact_container container grid"> 
             <div>
-               
-            <div class="contact_information">
-                    <i class="fas fa-phone-alt contact_icon"></i>
-                <div>
-                    <h3 class="contact__title">Call Me</h3>
-                    <span class="contact__subtitle">555-123-456</span>
-                </div>
-            </div>
-            
-            <div class="contact_information">
-                <i class="fas fa-at contact_icon"></i>
-            
-            <div>
-                <h3 class="contact__title">Email</h3>
-                <span class="contact__subtitle">Thomas@Anderson.com</span>
-            </div>
-        </div>
 
-         <div class="contact_information"> 
-            <i class="fas fa-map-marker-alt contact_icon"></i>
-    
+        <div class="contact_information">
+            <i class="fas fa-phone-alt"></i>
+        
         <div>
-            <h3 class="contact__title">Location</h3>
-            <span class="contact__subtitle"> 123 Matrix street, Los Angeles CA 92210</span>
+            <h3 class="contact_title">Call Me</h3>
+            <span class="contact_subtitle">555-123-456</span>
         </div>
     </div>
+
+    <div class="contact_container container grid"> 
+        <div>
+
+    <div class="contact_information">
+        <i class="fas fa-at"></i>
+    
+    <div>
+        <h3 class="contact_title">Email</h3>
+        <span class="contact_subtitle">Thomas@Anderson.com</span>
+    </div>
+</div>
+     </div>
+        </div>
+        <div class="contact_container container grid"> 
+            <div>
+    
+        <div class="contact_information">
+            <i class="fas fa-map-marker-alt"></i>
+    
+        <div>
+            <h3 class="contact_title">Location</h3>
+            <span class="contact_subtitle"> 123 Matrix street, Los Angeles CA 92210</span>
+        </div>
+    </div>
+</div>
 </div>
 
 <form class="contact_form"><br>
@@ -41,12 +50,12 @@
         <input type="text" id="lastname" class="contact_input" name="lname"><br>
         <label for="email" class="contact_label">Email</label><br>
         <input type="email" id="email" class="contact_input" name="email"><br>
-        <label for="message" class="contact_label">Message</label><br>
+        <label for="message">Message</label><br>
         <textarea id="message" name="message" class="message"></textarea>
         <br><br>  
         <i class="fas fa-paper-plane"></i>
         <input type="submit" value="Send Message">
-
+      
     </div>
 </form>
 </section>
@@ -81,7 +90,6 @@
         <p class="footer_copy">&#169; Wilders CV. copyrights</p>
     </div>
     </footer>
-</div>
 </section>
-
+<link rel="stylesheet" href="contact.js">
 
