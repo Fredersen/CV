@@ -7,7 +7,7 @@
       <i class="fab fa-facebook-square fa-2x"></i>
     </div>
     <div class="neo-photo">
-      <img src="Ressources/keanu-reeves-the-matrix-1200x802.jpg" alt="Profile pic" />
+      <img src="Ressources/keanucv.png" alt="Profile pic" />
     </div>
   </div>
   <div class="secondpart-header">
