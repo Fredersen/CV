@@ -5,7 +5,7 @@
         <div class ="skills_container container grid">
             <div>
 
-            <div class="skills_content skills_open">
+            <div class="skills_content skills_close">
                 <div class="skills_header">
                     <i class="uil uil-brackets-curly skills_icon"></i>
 
