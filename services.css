@@ -30,7 +30,7 @@ h3{
 
 /* réglage du style de la fenêtre popup */
 .overlay {
-    position: fixed;
+    position: absolute;
     left: 0px;
     top:0px;
     background-color: rgba(0,0 ,0 , 0.5);
@@ -48,6 +48,8 @@ h3{
     padding: 1em;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
+    position:fixed;
+    left: 15%;
 }
 
 /* style pour fermeture popup */
