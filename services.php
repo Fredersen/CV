@@ -42,5 +42,3 @@
             </div>
         </div>
     </div>
-
-    <script src="services.js"></script>
