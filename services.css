@@ -11,12 +11,6 @@ h3{
     align-items: center;
 }
 
-h5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 /* style pour bouton popup */
 .btnPopup{
