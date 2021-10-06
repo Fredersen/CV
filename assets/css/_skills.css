@@ -140,5 +140,10 @@
 }
 
 .section_subtitle{
-    
+    margin-bottom: 0rem;
+}
+
+.skills_header{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }

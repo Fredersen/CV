@@ -1,18 +1,18 @@
 <section class = "skills_section" id="skills">
-        <h2 class = "section_title">Compétences</h2>
-        <span class = "section_subtitle">Mon niveau technique</span>
+        <h2 class = "section_title">Skills</h2>
+        <span class = "section_subtitle">My technical skills</span>
     
         <div class ="skills_container container grid">
             <div>
 
-            <div class="skills_content skills_close
+            <div class="skills_content skills_active
             ">
                 <div class="skills_header">
                     <i class="uil uil-brackets-curly skills_icon"></i>
 
                     <div>
-                        <h1 class="skills_title">Developpeur Frontend</h1>
-                        <span class="skills_subtitle">Plus de 4 ans</span>
+                        <h1 class="skills_title">Frontend Developper</h1>
+                        <span class="skills_subtitle">More than 4 years</span>
                     </div>
 
                     <i class="uil uil-angle-down skills_arrow"></i>
@@ -66,8 +66,8 @@
                     <i class="uil uil-server-network-alt skills_icon"></i>
 
                     <div>
-                        <h1 class="skills_title">Developpeur Backend</h1>
-                        <span class="skills_subtitle">Plus de 2 ans</span>
+                        <h1 class="skills_title">Backend Developper</h1>
+                        <span class="skills_subtitle">More than 2 ans</span>
                     </div>
 
                     <i class="uil uil-angle-down skills_arrow"></i>
