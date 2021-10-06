@@ -2,31 +2,28 @@
 <p class="my-intro">My introduction</p>
 <img src="Ressources/keanu-reeves-fb.jpg" alt="a pic of me" class="img-aboutme" />
 <p class="text-aboutme">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea maiores
-    explicabo nostrum alias odio beatae architecto, minima consectetur facere
-    ut aspernatur voluptates est porro temporibus quasi officiis ducimus
-    tempora harum.
+Hey you, pick me. I'm the best developper in the whole world. I promise ! You have to believe me. People call me neo which mean that I am the one. The right one. For any job. Give me a job please, I'm hungry. Trinity will leave me if I don't find a job...
 </p>
 <div class="figures-aboutme">
     <div>
-        <h2>08+</h2>
+        <h2 class="experience">08+</h2>
         <p>Years
         <p>
         <p>Experience</p>
     </div>
     <div>
-        <h2>20+</h2>
+        <h2 class="experience">20+</h2>
         <p>Computed</p>
         <p>Projects</p>
     </div>
     <div>
-        <h2>05+</h2>
+        <h2 class="experience">05+</h2>
         <p>Companies</p>
         <p>Worked</p>
     </div>
 </div>
-<a href="#" class="btn-slide2">
+<a href=".btn-slide2" download="Ressources/m.jpg" class="btn-slide2">
   <span class="circle2"><i id="fa_down" class="fa fa-download"></i></span>
   <span class="title2">Download CV</span>
-  <span class="title-hover2">Click here</span>
+  <span class="title-hover2">Done</span>
 </a>

@@ -7,13 +7,13 @@
       <i class="fab fa-facebook-square fa-2x"></i>
     </div>
     <div class="neo-photo">
-      <img src="Ressources/keanu-reeves-the-matrix-1200x802.jpg" alt="Profile pic" />
+      <img src="Ressources/keanucv.png" alt="Profile pic" />
     </div>
   </div>
   <div class="secondpart-header">
-    <h1>Hi, I'm Keanue</h1>
+    <h1 id="first_title">Hi, I'm Thomas</h1>
     <h2>Frontend developer</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptatum, architecto quisquam vel voluptatibus amet ipsam magnam nulla, totam pariatur maxime, fugit excepturi! Quidem ducimus, sint tempore placeat libero quae!</p>
+    <p>My name is Thomas Andersen. I was lost in the matrix but now I have fond my way. I am a passionate front end developper. I use to fight the machines now I want to control them. I will beat your code like I beat the agent Smith</p>
     <a class="contact_me" href="#contact">Contact me</a>
   </div>
 </header>

@@ -16,8 +16,8 @@
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
     --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
     --title-color: hsl(var(--hue-color), 8%, 15%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);;
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);;
+    --text-color: hsl(var(--hue-color), 8%, 45%);
+    --text-color-light: hsl(var(--hue-color), 8%, 65%);
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #fff;
@@ -58,13 +58,13 @@
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
     :root {
-        --big-font-size: 3rem;
-        --h1-font-size: 2.25rem;
-        --h2-font-size: 1.5rem;
-        --h3-font-size: 1.25rem;
-        --normal-font-size: 1rem;
-        --small-font-size: 0.875rem;
-        --smaller-font-size: 0813rem;
+        --big-font-size: ;
+        --h1-font-size: ;
+        --h2-font-size: ;
+        --h3-font-size: ;
+        --normal-font-size: ;
+        --small-font-size: ;
+        --smaller-font-size: ;
     }
 }
 
@@ -78,8 +78,6 @@
 
 *{
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
 }
 
 html{
@@ -87,7 +85,6 @@ html{
 }
 
 body {
-    margin: 0 0 var(--header-height) 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     background-color: var(--body-color);
@@ -143,4 +140,28 @@ img{
 .grid{
     display: grid;
     gap: 1.5rem;
+}
+
+
+
+
+*{
+    font-family: var(--body-font);
+}
+
+
+
+h1{
+    font-size: var(--big-font-size);
+    color: hsl(var(--hue-color), 8%, 15%);
+}
+
+h2{
+    font-size: var(--h2-font-size);
+    color: var(--title-color);
+}
+
+h3, h4, h5, p{
+    color:  var(--text-color);
+    font-size: var(--normal-font-size);
 }

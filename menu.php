@@ -14,7 +14,7 @@
             <p>Services</p>
           </a></li>
         <li id="portfolio"><a href="#qualification"><img src="Ressources/landscape.png" class="img_menu">
-            <p>Portfolio</p>
+            <p>Qualification</p>
           </a></li>
         <li id="contact"><a href="#contact"><img src="Ressources/send.png" class="img_menu">
             <p>Contact me</p>
@@ -22,7 +22,7 @@
       </ul>
     </div>
     <div class="flex_nav">
-    <div class="brand-title">Keanue Reeves</div>
+    <div class="brand-title">Thomas Andersen</div>
     <a href="matrix/matrix.html" class="matrix_mode"><img src="Ressources/icons8-néo.svg" id="neo_img"></a>
     <a class="toggle-button">
       <span class="bar" id="line1"></span>

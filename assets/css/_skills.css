@@ -122,3 +122,28 @@
 .skills_open .skills_arrow{
     transform: rotate(-180deg);
 }
+
+
+/* Ajout de naim */
+
+.skills_section{
+    height: 100vh;
+}
+
+.section_title{
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.skills_header{
+    margin-top: 4rem;
+}
+
+.section_subtitle{
+    margin-bottom: 0rem;
+}
+
+.skills_header{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
