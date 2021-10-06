@@ -1,3 +1,4 @@
+<section class="section_service" id="service">
 <h2>Services</h2>
 
 <div id="Services_contents">
@@ -42,3 +43,6 @@
             </div>
         </div>
     </div>
+    <img src="/Ressources/keanucv2.png">
+
+    </section>
