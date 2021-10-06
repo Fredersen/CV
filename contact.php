@@ -60,36 +60,5 @@
 </form>
 </section>
 
-<!--==================== FOOTER =====================-->
-<section class="footer">
-    <footer>
-    <div class="footer_bg">
-        <div class="footer_container container grid">
-            <div>
-                <h3 class="footer_title">Thomas Anderson</h3>
-                <span class="footer_subtitle">Web Developer</span>
-            </div>
-
-            <div class="footer_socials">
-                <a href="https://www.facebook.com/" target="_blank" class="footer_socials">
-                    <i class="fab fa-facebook-f"></i>
-                    
-                </a>
-                
-                <a href="https://www.github.com/" target="_blank" class="footer_socials">
-                    <i class="fab fa-github"></i>
-                    
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank" class="footer_socials">
-                    <i class="fab fa-linkedin"></i>
-                    
-                </a>
-            </div>
-        </div>
-
-        <p class="footer_copy">&#169; Wilders CV. copyrights</p>
-    </div>
-    </footer>
-</section>
 <link rel="stylesheet" href="contact.js">
 
