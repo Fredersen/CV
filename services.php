@@ -23,11 +23,11 @@
 
     </div>
     <div class="Dev Back">
-        <h5>Dev Back</h5>
+        <h3>Dev Back</h3>
         <button class="btnPopup" data-overlay="overlay2">View more...</button>
         <div id="overlay2" class="overlay">
             <div class="popup">
-                <h6>What i do : <button class="btnClose">&times;</button></h6>
+                <h4>What i do : <button class="btnClose">&times;</button></h4>
                 <ul>
                     <li>
                         <p>User interface.</p>
