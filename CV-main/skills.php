@@ -1,11 +1,12 @@
-<section class = "skills section" id="skills">
+<section class = "skills_section" id="skills">
         <h2 class = "section_title">Compétences</h2>
         <span class = "section_subtitle">Mon niveau technique</span>
     
         <div class ="skills_container container grid">
             <div>
 
-            <div class="skills_content skills_open">
+            <div class="skills_content skills_close
+            ">
                 <div class="skills_header">
                     <i class="uil uil-brackets-curly skills_icon"></i>
 
