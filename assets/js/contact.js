@@ -17,3 +17,5 @@ function scrollActive(){
     })
 }
 window.addEventListener('scroll', scrollActive)
+
+/*========== Alerte POP UP ============*/
