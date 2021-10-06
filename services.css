@@ -1,12 +1,40 @@
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* style pour bouton popup */
 .btnPopup{
-    background-color: orangered;
+    background-color: rgb(174, 0, 255);
     padding: 1em 2em;
     cursor: pointer;
+    border-radius: 16px;
+    transition: 0.5s;
+    display: block;
+    margin: auto;
     }
 
+/* changement couleur lors du passage de la souris sur le bouton */
 .btnPopup:hover{
-    background-color: rgb(192, 192, 192);}
+    background-color: rgb(192, 192, 192);
+}
 
+/* réglage du style de la fenêtre popup */
 .overlay {
     position: fixed;
     left: 0px;
@@ -18,6 +46,7 @@
     display:none;
 }
 
+/* style de l'élément popup */
 .popup{
    margin: 10% auto;
     width : 70%;
@@ -26,10 +55,11 @@
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
-               
+
+/* style pour fermeture popup */
 .btnClose {
     float: right;
     font-size:16pt;
     cursor: pointer;
-    color: rgb(26, 26, 26);
+    color: rgb(236, 1, 225);
 }
