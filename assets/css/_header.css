@@ -8,18 +8,23 @@ html{
 
 header {
     height: 100vh;
-    background-color: --var-background-color;
 
 }
 
 .firstpart-header{
-    height: 40vh;
+    height: 35vh;
     display: flex;
-    grid-template-columns: (30% 70%);
 }
 
 img{
     width: 100%;
+}
+
+#neo-photo{
+    z-index: 1;
+    max-width: 400px;
+    position: relative;
+    top:3rem;
 }
 
 .logo-header{
@@ -102,7 +107,7 @@ i{
     width: 35px;
     height: 55px;
     bottom: 60px;
-    right: 12px;
+    right: 1rem;
     filter: #6e56e1;*
   }
 
@@ -111,3 +116,100 @@ i{
     width: max-content;
   }
 
+  #logo{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+#fleche{
+    font-size: 3rem;
+    color: var(--first-color);
+}
+
+
+
+@media screen and (max-width: 800px)  {
+    
+}
+.navbar_computer{
+    display: none;
+}
+
+.secondpart-header_computer{
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+
+.header_computer{
+    margin-top: 10rem;
+}
+
+.navbar_computer{
+    top: 0px;
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    background-color: #6e56e1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar_link_computer{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.title_computer{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+
+.ul_computer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.li_computer{
+    margin-right: 1rem;
+}
+
+.secondpart-header{
+    display: none;
+}
+
+.secondpart-header_computer{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.firstpart-header{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.logo-header{
+    justify-content: center;
+}
+
+#neo-photo{
+    margin-bottom:8rem;
+}
+
+.contact_me{
+    height: 4rem;
+}
+
+.presentation_computer{
+    text-align: center;
+}
+header{
+    height: 60vh;
+}
+
+}

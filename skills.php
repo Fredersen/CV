@@ -2,9 +2,7 @@
     <h2 class="section_title">Skills</h2>
     <span class="section_subtitle">My technical skills</span>
 
-    <div class="skills_container container grid">
-        <div>
-
+    <div class="skills_container container grid"
             <div class="skills_content skills_active">
                 <div class="skills_header">
                     <i class="uil uil-brackets-curly skills_icon"></i>
