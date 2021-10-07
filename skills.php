@@ -11,8 +11,10 @@
                     <h1 class="skills_title">Frontend Developper</h1>
                     <span class="skills_subtitle">More than 4 years</span>
                 </div>
+
                 <i class="uil uil-angle-down skills_arrow"></i>
             </div>
+
             <div class="skills_list grid">
                 <div class="skills_data">
                     <div class="skills_titles">
@@ -23,6 +25,7 @@
                         <span class="skills_percentage skills_html"></span>
                     </div>
                 </div>
+
                 <div class="skills_data">
                     <div class="skills_titles">
                         <h3 class="skills_name">CSS</h3>
@@ -30,6 +33,26 @@
                     </div>
                     <div class="skills_bar">
                         <span class="skills_percentage skills_css"></span>
+                    </div>
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_titles">
+                        <h3 class="skills_name">JavaScript</h3>
+                        <span class="skills_number">60%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage skills_js"></span>
+                    </div>
+                </div>
+
+                <div class="skills_data">
+                    <div class="skills_titles">
+                        <h3 class="skills_name">React</h3>
+                        <span class="skills_number">85%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage skills_react"></span>
                     </div>
                 </div>
                 <div class="skills_data">
@@ -109,6 +132,7 @@
                     <h1 class="skills_title">Designer</h1>
                     <span class="skills_subtitle">Plus de 3 ans</span>
                 </div>
+
                 <i class="uil uil-angle-down skills_arrow"></i>
             </div>
             <div class="skills_list grid">

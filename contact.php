@@ -49,7 +49,6 @@
         <textarea id="message" name="message" class="message" required></textarea>
         <br><br>  
         <button id="buttonsend" type="submit" value="Send Message">Envoyez</button> 
-        
     </div>
 </form>
 
