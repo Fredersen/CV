@@ -8,7 +8,7 @@
 }
 
 .contact_label{
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1.125rem;
 }
@@ -53,54 +53,38 @@
 }
 
 .contact_content{
-    position: absolute;
-    left: 10%;
-    width: 80%;
-    background-color: #9b8fd6;
-    border-radius: .5rem;
-    padding: .75rem 1rem .75rem;
+  position: relative;
+  width: 80%;
+  background-color: #e2dcff;
+  border-radius: .5rem;
+  padding: .75rem 1rem .25rem;
+}
+.contact_label{
+  font-size: 1.125rem;
+  color:#6e56e1;
 }
 
-
-.message{
-    width: 100%;
-    height: 8rem;
-    color: black;
-    background-color:white;
-    font-size: 1rem;
-    border: none;
-    outline: none;
-    padding: .25rem .3rem .5rem 0;
+#alert{
+  display: block;
+  text-align: center;
 }
 
 .contact_input{
-    width: 80%;
-    padding: .25rem .5rem .5rem 0;
-    border: none;
-    font-size: 1rem;
-    outline: none;
+  width: 100%;
+  background-color: #e2dcff;
+  font-size: 1.125rem;
+  border: none;
+  outline: none;
+  padding: .25rem .5rem .5rem 0;
 }
+
+
 
 .contact_form{
-    margin-bottom: 4rem;
-}
-
-.submit{
-    padding-top: 0.5rem;
-    padding-bottom: 1rem;
-    margin-top: 1rem;
-    width: 10rem;
-    border-radius: 3rem;
-    border: 2px solid black;
-    font-size: 1.2rem;
-    color: white;
-    background-color: #6e56e1;
-    font-weight: bold;
-    overflow: hidden;
-    transition: 0.5s all ease-in-out;
-    z-index: 0;
-    display: flex;
-    align-content: flex-end;
+    margin-bottom: 20rem;
+    position: absolute;
+    width: 80%;
+    left: 19%;
 }
 
 /* Modification de naim */
@@ -122,6 +106,7 @@
     font-family: 'Bebas Neue', cursive;
     background: linear-gradient(45deg, transparent 5%, #6e56e1 5%);
     border: 0;
+    border-radius: 10rem;
     color: #fff;
     letter-spacing: 3px;
     line-height: 88px;
@@ -203,7 +188,6 @@
   }
 
   @media (min-width: 800px) {
-    {
     
-    }
+
 }

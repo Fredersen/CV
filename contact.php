@@ -34,21 +34,26 @@
 </div>
 <hr>
 <?php if (!empty($_GET["fname"])): ?>
-<div>
-<p>Thank you <?=$_GET['fname']?>! Your message has been sent. You have received a confirmation to this adress :  <?=$_GET['email']?></p>
-<?php endif; ?></div>
-
-<form method="GET" class="contact_form" id="contactForm"><br>
+<form method="GET" action="#alert" class="contact_form grid" id="contactForm">
+   <div class="content_inputs grid">
     <div class="contact_content">
-        <label for="firstname" class="contact_label">First Name</label><br>
-        <input type="text" id="firstname" class="contact_input" name="fname" required><br>
-        <label for="lastname" class="contact_label">Last Name</label><br>
-        <input type="text" id="lastname" class="contact_input" name="lname"><br>
-        <label for="email" class="contact_label">Email</label><br>
-        <input type="email" id="email" class="contact_input" name="email" required><br>
-        <label for="message" class="contact_label">Message</label><br>
-        <textarea id="message" name="message" class="message" required></textarea>
-        <br><br>  
+        <label for="firstname" class="contact_label">First Name</label>
+        <input type="text" id="firstname" class="contact_input" name="fname" required>
+    </div>
+    <div class="contact_content">
+        <label for="lastname" class="contact_label">Last Name</label>
+        <input type="text" id="lastname" class="contact_input" name="lname">
+    </div>
+    <div class="contact_content">
+        <label for="email" class="contact_label">Email</label>
+        <input type="email" id="email" class="contact_input" name="email" required>
+    </div>
+   </div>
+   <div class="contact_content">
+        <label for="message" class="contact_label">Message</label>
+        <textarea id="message" cols="0"  rows="7" name="message" class="contact_input" required></textarea>
+   </div>
+    <div>
         <button id="buttonsend" type="submit" value="Send Message">Send</button> 
     </div>
 </form>
