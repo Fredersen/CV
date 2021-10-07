@@ -34,9 +34,6 @@
 </div>
 <hr>
 <?php if (!empty($_GET["fname"])): ?>
-<div id="alert"> <p> Thank you <?=$_GET['fname']?>! Your message has been sent. You have received a confirmation to this adress :  <?=$_GET['email']?> </p></div>
-<?php endif; ?>
-
 <form method="GET" action="#alert" class="contact_form grid" id="contactForm">
    <div class="content_inputs grid">
     <div class="contact_content">
