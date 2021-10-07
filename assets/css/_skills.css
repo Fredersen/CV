@@ -164,6 +164,8 @@
    height: 10px;
 }
 
+/* media querry */
+
 @media (min-width: 800px) {
     .skills_container{
         margin-left: auto;
