@@ -52,7 +52,7 @@ h3{
     padding: 1em;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
-    position:fixed;
+    position: fixed;
     left: 15%;
 }
 
@@ -67,5 +67,38 @@ h3{
 /* modification de naim */
 
 .section_service{
+    margin-top: 10rem;
     height: 100vh;
+}
+
+#servicescomputer{
+    display: none;
+}
+
+.text_service_computer{
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    #servicescomputer{
+        display: block;
+        height: 2rem;
+    }
+
+    .grid_computer{
+        display: grid;
+
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 3rem 10rem;
+        text-align: center;
+    }
+
+    .btnPopup{
+        display: none;
+    }
+
+    .text_service_computer{
+        display: block;
+        padding-left: 0px;
+    }
 }

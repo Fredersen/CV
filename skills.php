@@ -7,7 +7,6 @@
         <div class="skills_content skills_active">
             <div class="skills_header">
                 <i class="uil uil-brackets-curly skills_icon"></i>
-
                 <div>
                     <h1 class="skills_title">Frontend Developper</h1>
                     <span class="skills_subtitle">More than 4 years</span>
@@ -56,21 +55,36 @@
                         <span class="skills_percentage skills_react"></span>
                     </div>
                 </div>
+                <div class="skills_data">
+                    <div class="skills_titles">
+                        <h3 class="skills_name">JavaScript</h3>
+                        <span class="skills_number">60%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage skills_js"></span>
+                    </div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_titles">
+                        <h3 class="skills_name">React</h3>
+                        <span class="skills_number">85%</span>
+                    </div>
+                    <div class="skills_bar">
+                        <span class="skills_percentage skills_react"></span>
+                    </div>
+                </div>
             </div>
         </div>
         <!---------------------------- BACKEND DEV ------------------------------------>
         <div class="skills_content skills_close">
             <div class="skills_header">
                 <i class="uil uil-server-network-alt skills_icon"></i>
-
                 <div>
                     <h1 class="skills_title">Backend Developper</h1>
                     <span class="skills_subtitle">More than 2 ans</span>
                 </div>
-
                 <i class="uil uil-angle-down skills_arrow"></i>
             </div>
-
             <div class="skills_list grid">
                 <div class="skills_data">
                     <div class="skills_titles">
@@ -81,7 +95,6 @@
                         <span class="skills_percentage skills_php"></span>
                     </div>
                 </div>
-
                 <div class="skills_data">
                     <div class="skills_titles">
                         <h3 class="skills_name">Node Js</h3>
@@ -91,7 +104,6 @@
                         <span class="skills_percentage skills_node"></span>
                     </div>
                 </div>
-
                 <div class="skills_data">
                     <div class="skills_titles">
                         <h3 class="skills_name">Firebase</h3>
@@ -101,7 +113,6 @@
                         <span class="skills_percentage skills_firebase"></span>
                     </div>
                 </div>
-
                 <div class="skills_data">
                     <div class="skills_titles">
                         <h3 class="skills_name">Python</h3>
@@ -117,7 +128,6 @@
         <div class="skills_content skills_close">
             <div class="skills_header">
                 <i class="uil uil-swatchbook skills_icon"></i>
-
                 <div>
                     <h1 class="skills_title">Designer</h1>
                     <span class="skills_subtitle">Plus de 3 ans</span>
@@ -125,7 +135,6 @@
 
                 <i class="uil uil-angle-down skills_arrow"></i>
             </div>
-
             <div class="skills_list grid">
                 <div class="skills_data">
                     <div class="skills_titles">
@@ -136,7 +145,6 @@
                         <span class="skills_percentage skills_figma"></span>
                     </div>
                 </div>
-
                 <div class="skills_data">
                     <div class="skills_titles">
                         <h3 class="skills_name">Sketch</h3>
@@ -146,7 +154,6 @@
                         <span class="skills_percentage skills_sketch"></span>
                     </div>
                 </div>
-
                 <div class="skills_data">
                     <div class="skills_titles">
                         <h3 class="skills_name">Photoshop</h3>

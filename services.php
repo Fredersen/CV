@@ -1,7 +1,9 @@
+<div id="servicescomputer"></div>
 <section class="section_service" id="service">
 <h2>Services</h2>
 
 <div id="Services_contents">
+    <div class="grid_computer">
     <div class="Dev Front">
         <h3>Dev Front</h3>
         <button class="btnPopup" data-overlay="overlay1">View more... </button>
@@ -43,6 +45,29 @@
             </div>
         </div>
     </div>
+    <ul class="text_service_computer">
+                    <li>
+                        <p>User interface.</p>
+                    </li>
+                    <li>
+                        <p>Web page development.</p>
+                    </li>
+                    <li>
+                        <p>UX elements interactions.</p>
+                    </li>
+                </ul>
+                <ul class="text_service_computer">
+                    <li>
+                        <p>User interface.</p>
+                    </li>
+                    <li>
+                        <p>Web page development.</p>
+                    </li>
+                    <li>
+                        <p>UX elements interactions.</p>
+                    </li>
+                </ul>
+    </div>
     <img src="/Ressources/keanucv2.png">
-
+</div>
     </section>
