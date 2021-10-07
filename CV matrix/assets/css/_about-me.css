@@ -3,6 +3,7 @@
 }
 
 h2{
+    color: hsl(var(--hue-color), 69%, 61%);
     padding-top: 0rem;
 }
 
@@ -43,7 +44,7 @@ h2{
 }
 
 .experience{
-    color: #6e56e1;
+    color: hsl(var(--hue-color), 69%, 61%);
 }
 
 .btn-slide2 {
@@ -54,26 +55,26 @@ h2{
     line-height: 50px;
     padding: 0;
     border-radius: 50px;
-    background: #6e56e1;
-    border: 2px solid #6e56e1;
+    background: hsl(var(--hue-color), 69%, 61%);
+    border: 2px solid hsl(var(--hue-color), 69%, 61%);
     margin: auto;
     margin-top: 40px;
     transition: .5s;
 }
 
 .btn-slide2 {
-    border: 2px solid #6e56e1
+    border: 2px solid #hsl(var(--hue-color), 69%, 61%)
 }
 
 .btn-slide2:hover {
-    background-color: #6e56e1;
+    background-color: hsl(var(--hue-color), 69%, 61%);
 }
 
 .btn-slide2:hover span.circle2 {
     left: 100%;
     margin-left: -45px;
     background-color: #fdfdfd;
-    color: #6e56e1;
+    color: #hsl(var(--hue-color), 69%, 61%);
 }
 
 #fa_down{
@@ -85,7 +86,7 @@ h2{
 
 
 .btn-slide2:hover span.circle2 {
-    color: #6e56e1;
+    color: hsl(var(--hue-color), 69%, 61%);
 }
 
 .btn-slide2:hover span.title2 {
@@ -102,7 +103,7 @@ h2{
 
 .btn-slide2 span.circle2 {
     display: block;
-    background-color: #6e56e1;
+    background-color: hsl(var(--hue-color), 69%, 61%);
     color: #fff;
     position: absolute;
     float: left;
@@ -128,7 +129,8 @@ h2{
     margin: 0 auto;
     font-size: 16px;
     font-weight: bold;
-    color: #6e56e1;
+    color: hsl(var(--hue-color), 69%, 61%);
+    background-color: hsl(var(--hue-color), 69%, 61%);
     transition: .5s;
 }
 
@@ -145,6 +147,10 @@ h2{
 
 .btn-slide2 span.title-hover2 {
     color: #fff;
+}
+
+#fa_down{
+    background-color: hsl(var(--hue-color), 69%, 61%);
 }
 
 #aboutcomputer{
