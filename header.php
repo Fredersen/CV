@@ -19,9 +19,9 @@
   <div class="header_computer">
     <div class="firstpart-header">
       <div class="logo-header">
-        <i id="logo" class="uil uil-linkedin header_icon"></i>
-        <i id="logo" class="uil uil-github header_icon"></i>
-        <i id="logo" class="uil uil-facebook"></i>
+        <a href="Ressources/neo_in.png"><i id="logo" class="uil uil-linkedin header_icon"></i></a>
+        <a href="Ressources/githubneo.png"> <i id="logo" class="uil uil-github header_icon"></i></a>
+        <a href="Ressources/neofb.png"><i id="logo" class="uil uil-facebook"></i></a>
       </div>
       <div class="secondpart-header_computer">
         <h1 id="first_title">Hi, I'm Thomas</h1>
