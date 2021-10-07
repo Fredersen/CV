@@ -17,11 +17,11 @@ h3{
 .btnPopup{
     color: white;
     font-weight: bold;
-    background-color: #6e56e1;
+    background-color: hsl(var(--hue-color), 69%, 61%);
     padding: 1em 2em;
     cursor: pointer;
     border: 0px;
-    box-shadow: 3px 5px 5px #c1b8f0;
+    box-shadow: 3px 5px 5px #hsl(var(--hue-color), 69%, 61%);
     border-radius: 16px;
     transition: 0.5s;
     display: block;
@@ -62,7 +62,7 @@ h3{
     float: right;
     font-size:16pt;
     cursor: pointer;
-    color: #6e56e1;
+    color: hsl(var(--hue-color), 69%, 61%);
 }
 
 /* modification de naim */
@@ -102,7 +102,7 @@ h3{
 
     .text_service_computer{
         border-radius: 7px;
-        box-shadow: 2px 5px 10px #6e56e1;
+        box-shadow: 2px 5px 10px hsl(var(--hue-color), 69%, 61%);
         display: block;
         padding-left: 0px;
     }

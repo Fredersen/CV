@@ -10,7 +10,6 @@
     /* Change favorite color */
     --hue-color: 100; 
 
-
     --first-color: hsl(var(--hue-color), 69%, 61%);
     --first-color-second: hsl(var(--hue-color), 69%, 61%);
     --first-color-alt: hsl(var(--hue-color), 57%, 53%);
@@ -78,6 +77,8 @@
 
 *{
     box-sizing: border-box;
+    background-color: black;
+    color: green;
 }
 
 html{
@@ -87,8 +88,7 @@ html{
 body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
-    background-color: var(--body-color);
-    color: var(--text-color); 
+    color: green; 
 }
 
 h1,h2,h3,h4{
