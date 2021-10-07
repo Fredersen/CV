@@ -1,7 +1,7 @@
 <section class="skills_section" id="skills">
     <h2 class="section_title">Skills</h2>
     <span class="section_subtitle">My technical skills</span>
-    <!---------------------------- Container GRID ------------------------------------>
+    <!---------------------------- Container GRID ------------------------------------->
     <div class="skills_container container grid">
         <!---------------------------- FONTEND DEV ------------------------------------>
         <div class="skills_content skills_active">
