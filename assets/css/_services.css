@@ -69,3 +69,34 @@ h3{
 .section_service{
     height: 100vh;
 }
+
+#servicescomputer{
+    display: none;
+}
+
+.text_service_computer{
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    #servicescomputer{
+        display: block;
+        height: 2rem;
+    }
+
+    .grid_computer{
+        display: grid;
+        grid-template-columns: 40% 40%;
+        grid-template-rows: 3rem 10rem;
+        text-align: center;
+    }
+
+    .btnPopup{
+        display: none;
+    }
+
+    .text_service_computer{
+        display: block;
+        padding-left: 0px;
+    }
+}

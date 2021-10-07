@@ -9,7 +9,7 @@
         </a></li>
       <li id="skills_computer" class="li_computer"><a class="navbar_link_computer" href="#skillscomputer">Skills
         </a></li>
-      <li id="services_computer" class="li_computer"><a class="navbar_link_computer" href="#service">Services
+      <li id="services_computer" class="li_computer"><a class="navbar_link_computer" href="#servicescomputer">Services
         </a></li>
       <li id="portfolio_computer" class="li_computer"><a class="navbar_link_computer" href="#qualification">Qualification</li>
       <li id="contact_computer" class="li_computer"><a class="navbar_link_computer" href="#contact">Contact me

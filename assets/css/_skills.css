@@ -157,10 +157,19 @@
     .skills_section{
         margin-top: 4rem;
 }
+}
 
 .skills_computer{
-
    display: block;
    height: 10px;
+}
 
+/* media querry */
+
+@media (min-width: 800px) {
+    .skills_container{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
 }
