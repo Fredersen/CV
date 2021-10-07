@@ -48,8 +48,7 @@
         <label for="message" class="contact_label">Message</label><br>
         <textarea id="message" name="message" class="message" required></textarea>
         <br><br>  
-        <i class="fas fa-paper-plane"></i>
-        <input type="submit" value="Send Message">
+        <input type="submit" value="Send Message" class="submit">
 
     </div>
 </form>
