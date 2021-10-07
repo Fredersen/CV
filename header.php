@@ -21,7 +21,7 @@
       <div class="logo-header">
         <i id="logo" class="uil uil-linkedin header_icon"></i>
         <i id="logo" class="uil uil-github header_icon"></i>
-        <i id="logo" class="uil uil-facebook-f header_icon"></i>
+        <i id="logo" class="uil uil-facebook"></i>
       </div>
       <div class="secondpart-header_computer">
         <h1 id="first_title">Hi, I'm Thomas</h1>
