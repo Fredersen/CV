@@ -148,7 +148,7 @@
 
                             <div>
                                 <span class="qualification__rounder"></span>
-                                <!-- <span class="qualification__line"></span> -->
+                                <span class="qualification__line"></span>
                             </div>
                         </div>
                     </div>

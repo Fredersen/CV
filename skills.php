@@ -10,7 +10,7 @@
             <div class="skills_header">
                 <i class="uil uil-brackets-curly skills_icon"></i>
                 <div>
-                    <h1 class="skills_title">Frontend Developper</h1>
+                    <h2 class="skills_title">Frontend Developper</h2>
                     <span class="skills_subtitle">More than 4 years</span>
                 </div>
 
@@ -82,7 +82,7 @@
             <div class="skills_header">
                 <i class="uil uil-server-network-alt skills_icon"></i>
                 <div>
-                    <h1 class="skills_title">Backend Developper</h1>
+                    <h2 class="skills_title">Backend Developper</h2>
                     <span class="skills_subtitle">More than 2 ans</span>
                 </div>
                 <i class="uil uil-angle-down skills_arrow"></i>
@@ -131,7 +131,7 @@
             <div class="skills_header">
                 <i class="uil uil-swatchbook skills_icon"></i>
                 <div>
-                    <h1 class="skills_title">Designer</h1>
+                    <h2 class="skills_title">Designer</h2>
                     <span class="skills_subtitle">Plus de 3 ans</span>
                 </div>
 
