@@ -68,7 +68,7 @@ body {
     color: black
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     .navbar {
         display: block;
         width: 100%;
@@ -154,5 +154,11 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media screen and (min-width:800px){
+    .navbar{
+        display: none;
     }
 }

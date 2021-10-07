@@ -149,3 +149,18 @@ h2{
 .btn-slide2 span.title-hover2 {
     color: #fff;
 }
+
+#aboutcomputer{
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    .text-aboutme{
+        margin-left: 7rem;
+        margin-right: 7rem;
+    }
+    #aboutcomputer{
+        display: block;
+        height: 2rem;
+    }
+}

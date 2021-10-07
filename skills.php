@@ -1,12 +1,11 @@
-<section class = "skills_section" id="skills">
-        <h2 class = "section_title">Skills</h2>
-        <span class = "section_subtitle">My technical skills</span>
-    
-        <div class ="skills_container container grid">
-            <div>
+<section class="skills_section" id="skills">
+    <h2 class="section_title">Skills</h2>
+    <span class="section_subtitle">My technical skills</span>
 
-            <div class="skills_content skills_active
-            ">
+    <div class="skills_container container grid">
+        <div class="div_to_center">
+
+            <div class="skills_content skills_active">
                 <div class="skills_header">
                     <i class="uil uil-brackets-curly skills_icon"></i>
 
@@ -60,76 +59,76 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <div class="skills_content skills_close">
+                    <div class="skills_header">
+                        <i class="uil uil-server-network-alt skills_icon"></i>
 
-            <div class="skills_content skills_close">
-                <div class="skills_header">
-                    <i class="uil uil-server-network-alt skills_icon"></i>
+                        <div>
+                            <h1 class="skills_title">Backend Developper</h1>
+                            <span class="skills_subtitle">More than 2 ans</span>
+                        </div>
 
-                    <div>
-                        <h1 class="skills_title">Backend Developper</h1>
-                        <span class="skills_subtitle">More than 2 ans</span>
+                        <i class="uil uil-angle-down skills_arrow"></i>
                     </div>
 
-                    <i class="uil uil-angle-down skills_arrow"></i>
+                    <div class="skills_list grid">
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">PHP</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_php"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Node Js</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_node"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Firebase</h3>
+                                <span class="skills_number">90%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_firebase"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills_data">
+                            <div class="skills_titles">
+                                <h3 class="skills_name">Python</h3>
+                                <span class="skills_number">55%</span>
+                            </div>
+                            <div class="skills_bar">
+                                <span class="skills_percentage skills_python"></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="skills_list grid">
-                    <div class="skills_data">
-                        <div class="skills_titles">
-                            <h3 class="skills_name">PHP</h3>
-                            <span class="skills_number">80%</span>
-                        </div>
-                        <div class="skills_bar">
-                            <span class="skills_percentage skills_php"></span>
-                        </div>
-                    </div>
-
-                    <div class="skills_data">
-                        <div class="skills_titles">
-                            <h3 class="skills_name">Node Js</h3>
-                            <span class="skills_number">70%</span>
-                        </div>
-                        <div class="skills_bar">
-                            <span class="skills_percentage skills_node"></span>
-                        </div>
-                    </div>
-
-                    <div class="skills_data">
-                        <div class="skills_titles">
-                            <h3 class="skills_name">Firebase</h3>
-                            <span class="skills_number">90%</span>
-                        </div>
-                        <div class="skills_bar">
-                            <span class="skills_percentage skills_firebase"></span>
-                        </div>
-                    </div>
-
-                    <div class="skills_data">
-                        <div class="skills_titles">
-                            <h3 class="skills_name">Python</h3>
-                            <span class="skills_number">55%</span>
-                        </div>
-                        <div class="skills_bar">
-                            <span class="skills_percentage skills_python"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
             </div>
 
             <div>
                 <div class="skills_content skills_close">
                     <div class="skills_header">
                         <i class="uil uil-swatchbook skills_icon"></i>
-    
+
                         <div>
                             <h1 class="skills_title">Designer</h1>
                             <span class="skills_subtitle">Plus de 3 ans</span>
                         </div>
-    
+
                         <i class="uil uil-angle-down skills_arrow"></i>
                     </div>
-    
+
                     <div class="skills_list grid">
                         <div class="skills_data">
                             <div class="skills_titles">
@@ -140,7 +139,7 @@
                                 <span class="skills_percentage skills_figma"></span>
                             </div>
                         </div>
-    
+
                         <div class="skills_data">
                             <div class="skills_titles">
                                 <h3 class="skills_name">Sketch</h3>
@@ -150,7 +149,7 @@
                                 <span class="skills_percentage skills_sketch"></span>
                             </div>
                         </div>
-    
+
                         <div class="skills_data">
                             <div class="skills_titles">
                                 <h3 class="skills_name">Photoshop</h3>
@@ -162,7 +161,6 @@
                         </div>
                     </div>
                 </div>
-            </div>       
-        </div> 
-    </section>
-    <script type="text/JavaScript" src="skills.js"></script>
+            </div>
+        </div>
+</section>
