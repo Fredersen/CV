@@ -1,3 +1,5 @@
+<div id="skillscomputer"></div>
+
 <section class="skills_section" id="skills">
     <h2 class="section_title">Skills</h2>
     <span class="section_subtitle">My technical skills</span>

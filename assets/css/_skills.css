@@ -159,8 +159,10 @@
 }
 }
 
-.skills_computer{
+#skillscomputer{
    display: block;
+   margin-top:20px;
+   margin-bottom:10px;
    height: 10px;
 }
 

@@ -34,7 +34,7 @@
 </div>
 <hr>
 <?php if (!empty($_GET["fname"])): ?>
-<h3>Merci <?=$_GET['fname']?> votre message a bien ete envoyer a votre email <?=$_GET['email']?></h3>
+<h3>Thank you <?=$_GET['fname']?>! Your message has been sent. You have received a confirmation to this adress :  <?=$_GET['email']?></h3>
 <?php endif; ?>
 
 <form method="GET" class="contact_form" id="contactForm"><br>
@@ -48,7 +48,7 @@
         <label for="message" class="contact_label">Message</label><br>
         <textarea id="message" name="message" class="message" required></textarea>
         <br><br>  
-        <button id="buttonsend" type="submit" value="Send Message">Envoyez</button> 
+        <button id="buttonsend" type="submit" value="Send Message">Send</button> 
     </div>
 </form>
 
