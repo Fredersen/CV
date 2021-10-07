@@ -212,4 +212,11 @@ header{
     height: 60vh;
 }
 
+.matrix_mode{
+    position: fixed;
+    right: 0.7rem;
+    bottom: 0.7rem;
+    width: 2rem;
+}
+
 }
