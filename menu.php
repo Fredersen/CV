@@ -10,7 +10,7 @@
         <li id="skills"><a href="#skills"><img src="Ressources/document.png" class="img_menu">
             <p>Skills</p>
           </a></li>
-        <li id="services"><a href="#services"><img src="Ressources/case (1).png" class="img_menu">
+        <li id="services"><a href="#service"><img src="Ressources/case (1).png" class="img_menu">
             <p>Services</p>
           </a></li>
         <li id="portfolio"><a href="#qualification"><img src="Ressources/landscape.png" class="img_menu">
