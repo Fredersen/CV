@@ -68,6 +68,6 @@
                     </li>
                 </ul>
     </div>
-    <img src="/Ressources/keanucv2.png">
+    <img id="keanu_service" src="/Ressources/keanucv2.png">
 </div>
     </section>

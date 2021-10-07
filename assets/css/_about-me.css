@@ -160,8 +160,9 @@ h2{
 
 @media screen and (min-width: 800px) {
     .text-aboutme{
-        margin-left: 7rem;
-        margin-right: 7rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 60ch;
     }
     #aboutcomputer{
         display: block;
