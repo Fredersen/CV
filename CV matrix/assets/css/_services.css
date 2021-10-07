@@ -1,0 +1,117 @@
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+/* style pour bouton popup */
+.btnPopup{
+    color: white;
+    font-weight: bold;
+    background-color: #6e56e1;
+    padding: 1em 2em;
+    cursor: pointer;
+    border: 0px;
+    box-shadow: 3px 5px 5px #c1b8f0;
+    border-radius: 16px;
+    transition: 0.5s;
+    display: block;
+    margin: auto;
+    }
+
+/* changement couleur lors du passage de la souris sur le bouton */
+.btnPopup:hover{
+    background-color: rgb(192, 192, 192);
+}
+
+/* réglage du style de la fenêtre popup */
+.overlay {
+    position: absolute;
+    left: 0px;
+    top:0px;
+    background-color: rgba(0,0 ,0 , 0.5);
+    width: 100%;
+    height: 100%;
+    z-index:1;
+    display:none;
+}
+
+/* style de l'élément popup */
+.popup{
+   margin: 10% auto;
+    width : 70%;
+    background-color: rgb(243, 243, 243);
+    padding: 1em;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    position: fixed;
+    left: 15%;
+}
+
+/* style pour fermeture popup */
+.btnClose {
+    float: right;
+    font-size:16pt;
+    cursor: pointer;
+    color: #6e56e1;
+}
+
+/* modification de naim */
+
+.section_service{
+    margin-top: 15rem;
+    height: 100vh;
+}
+
+#servicescomputer{
+    display: none;
+}
+
+.text_service_computer{
+    display: none;
+}
+
+@media screen and (min-width: 800px) {
+    #servicescomputer{
+        display: block;
+        height: 2rem;
+    }
+
+    .grid_computer{
+        display: grid;
+        margin-left: 10%;
+        margin-right: 10%;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 3rem 10rem;
+        grid-gap: 2rem;
+        text-align: center;
+    }
+
+    .btnPopup{
+        display: none;
+    }
+
+    .text_service_computer{
+        border-radius: 7px;
+        box-shadow: 2px 5px 10px #6e56e1;
+        display: block;
+        padding-left: 0px;
+    }
+    #keanu_service{
+        max-width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+        bottom: 7rem;
+        position:relative;
+        }
+}

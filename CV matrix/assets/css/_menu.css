@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181623 ;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: rgb(204, 196, 196);
+}
+
+.toggle-button {
+    position: absolute;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img_menu{
+    width: 2rem;
+    color: black
+}
+
+@media (max-width: 1000px) {
+    .navbar {
+        display: block;
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    .toggle-button {
+        display: flex;
+        bottom: 0.7rem;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        opacity: 0;
+        color: black;
+
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        display: grid;
+        grid-template-rows: 20vh 20vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 40vh;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-links.active {
+        display: flex;
+        opacity: 1;
+        background-color: white;
+    }
+
+    #home_menu{
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #about{
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+
+    .toggle #line1{
+        transform: rotate(-45deg) translate(-6px,6px);
+    }
+
+   .toggle #line2{
+        opacity: 0;
+    }
+
+    .toggle #line3{
+        transform: rotate(45deg) translate(-6px,-6px);
+    }
+    
+  
+    .flex_nav{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 4fr 1fr 1fr;
+    }
+    #neo_img{
+        padding-top: 7px;
+        width: 2rem;
+    }
+
+    .matrix_mode{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:800px){
+    .navbar{
+        display: none;
+    }
+}
