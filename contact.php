@@ -1,34 +1,34 @@
+<section class="contact_complete">
+<section class="contact_adress">
 <section class="contactsection" id="contact">
-        <h2 class="section_title">Contact</h2>
-        <span class="section_subtitle">Get in Touch</span>
-
-            <h3 class="contact_title">Call Me</h3>
+        <h2 class="section__title">Contact</h2>
+            <h3 class="contact__title" id="call_me">Call Me</h3>
         
-        <div class="flex_contact">
+        <div class="flex__contact">
             <i class="fas fa-phone-alt"></i>
-            <span class="contact_subtitle">555-123-456</span>
+            <span class="contact__subtitle">555-123-456</span>
             
         </div>
     </div>
     <div class="contact_information">
 
-        <h3 class="contact_title">Email</h3>
+        <h3 class="contact__title">Email</h3>
     
-    <div class="flex_contact">
+    <div class="flex__contact">
         <i class="fas fa-at"></i>
-        <span class="contact_subtitle">Thomas@Anderson.com</span>
+        <span class="contact__subtitle">Thomas@Anderson.com</span>
     </div>
 </div>
      </div>
 
-
+    </section>
         <div class="contact_information">
 
-            <h3 class="contact_title">Location</h3>
+            <h3 class="contact__title">Location</h3>
     
-        <div class="flex_contact">
+        <div class="flex__contact">
             <i class="fas fa-map-marker-alt"></i>
-            <span class="contact_subtitle"> 123 Matrix street, Los Angeles CA 92210</span>
+            <span class="contact__subtitle"> 123 Matrix street, Los Angeles CA 92210</span>
         </div>
     </div>
 </div>
@@ -48,10 +48,10 @@
         <label for="message" class="contact_label">Message</label><br>
         <textarea id="message" name="message" class="message" required></textarea>
         <br><br>  
-        <i class="fas fa-paper-plane"></i>
-        <input type="submit" value="Send Message">
-
+        <button id="buttonsend" type="submit" value="Send Message">Envoyez</button> 
+        
     </div>
 </form>
 
+</section>
 </section>

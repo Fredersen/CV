@@ -154,6 +154,10 @@ h2{
     display: none;
 }
 
+.title2{
+    right: 0.5rem;
+}
+
 @media screen and (min-width: 800px) {
     .text-aboutme{
         margin-left: 7rem;
