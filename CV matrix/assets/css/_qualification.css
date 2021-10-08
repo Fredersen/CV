@@ -31,6 +31,7 @@
 }
 
 .qualification__title{
+    color: white;
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     

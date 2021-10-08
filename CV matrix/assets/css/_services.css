@@ -104,6 +104,13 @@ ul{
     color: white;
 }
 
+#keanu_service{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
 @media screen and (min-width: 800px) {
     #servicescomputer{
         display: block;

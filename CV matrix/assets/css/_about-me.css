@@ -20,6 +20,8 @@ h2{
 }
 
 .my-intro{
+    font-size: 1.25rem;
+    font-weight: bold;
     margin-top: 0.5rem;
     margin-bottom: 2em;
 }
@@ -63,7 +65,7 @@ h2{
 }
 
 .btn-slide2 {
-    border: 2px solid #hsl(var(--hue-color), 69%, 61%)
+    border: 2px solid hsl(var(--hue-color), 69%, 61%)
 }
 
 .btn-slide2:hover {
@@ -74,7 +76,7 @@ h2{
     left: 100%;
     margin-left: -45px;
     background-color: #85E057;
-    color: #hsl(var(--hue-color), 69%, 61%);
+    color: hsl(var(--hue-color), 69%, 61%);
 }
 
 #fa_down{
