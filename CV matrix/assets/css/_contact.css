@@ -55,12 +55,12 @@
 .contact_content{
   position: relative;
   width: 80%;
-  background-color: rgb(169, 252, 194);
+  background-color: hsl(var(--hue-color), 69%, 61%);
   border-radius: .5rem;
   padding: .75rem 1rem .25rem;
 }
 .contact_label{
-  background-color: rgb(169, 252, 194);
+  background-color: hsl(var(--hue-color), 69%, 61%);
   font-size: 1.125rem;
   color: black;
 }
@@ -73,7 +73,7 @@
 .contact_input{
   color: black;
   width: 100%;
-  background-color: rgb(169, 252, 194);
+  background-color: hsl(var(--hue-color), 69%, 61%);
   font-size: 1.125rem;
   border: none;
   outline: none;
