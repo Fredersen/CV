@@ -125,6 +125,7 @@ h2{
 .btn-slide span.title,
   .btn-slide span.title-hover, .btn-slide2 span.title2,
   .btn-slide2 span.title-hover2 {
+    height: 10px;
     position: absolute;
     left: 90px;
     text-align: center;
