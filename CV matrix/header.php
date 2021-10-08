@@ -30,7 +30,7 @@
         <a class="contact_me" href="#contact">Contact me</a>
       </div>
       <div class="neo-photo">
-        <img id="neo-photo" src="Ressources/keanucv.png" alt="Profile pic" />
+        <img id="neo-photo" src="/CV matrix/Ressources/neodark.png" alt="Profile pic" />
       </div>
     </div>
     <div class="secondpart-header">
