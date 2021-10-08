@@ -45,4 +45,4 @@
 <div id="scroll_to_top">
   <a href="#header"><i id="fleche" class="uil uil-arrow-circle-up"></i></a>
 </div>
-<div class="matrix _logo"><a href="matrix/matrix.html" class="matrix_mode"><img src="Ressources/icons8-néo.svg" id="neo_img"></a></div>
+<div class="matrix _logo"><a href="matrix/matrix.html" class="matrix_mode"><img src="Ressources/icons8-néo.svg" id="neo_img_computer"></a></div>

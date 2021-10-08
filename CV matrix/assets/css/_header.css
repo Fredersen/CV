@@ -132,8 +132,11 @@ i{
 }
 
 
+
 @media screen and (max-width: 800px)  {
-    
+    #neo_img_computer{
+        display: none;
+    }
 }
 .navbar_computer{
     display: none;
