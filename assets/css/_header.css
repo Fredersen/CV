@@ -108,7 +108,7 @@ i{
     height: 55px;
     bottom: 60px;
     right: 1rem;
-    filter: #6e56e1;*
+    filter: #6e56e1;
   }
 
   #scroll_to_top img {
@@ -130,6 +130,12 @@ i{
     display: none;
 }
 
+#neo_img_computer{
+    display: none;
+}
+
+
+
 
 @media screen and (max-width: 800px)  {
     
@@ -143,6 +149,10 @@ i{
 }
 
 @media screen and (min-width: 800px) {
+
+    #neo_img_computer{
+        display: block;
+    }
 
 .header_computer{
     margin-top: 10rem;

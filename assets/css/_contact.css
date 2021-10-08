@@ -97,6 +97,13 @@
     height:40vh;
 }
 
+.personalmessage{
+  width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 /* Bouton envoyé */
 
 #buttonsend, #buttonsend::after {
@@ -188,7 +195,9 @@
   }
 
   @media (min-width: 800px) {
-    
+  .section__title{
+    margin-top: 3rem;
+  }
 
 }
 

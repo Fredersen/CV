@@ -2,7 +2,7 @@
 <div id="aboutcomputer"></div>
 <h2 id="about" class="about-me">About me</h2>
 <p class="my-intro">My introduction</p>
-<img src="Ressources/keanu-reeves-fb.jpg" alt="a pic of me" class="img-aboutme" />
+<img src="/CV matrix/Ressources/neodark3.png" alt="a pic of me" class="img-aboutme" />
 <p class="text-aboutme">
 Hey you, pick me. I'm the best developper in the whole world. I promise ! You have to believe me. People call me neo which mean that I am the one. The right one. For any job. Give me a job please, I'm hungry. Trinity will leave me if I don't find a job...
 </p>

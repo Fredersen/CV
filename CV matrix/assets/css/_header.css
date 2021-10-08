@@ -57,7 +57,7 @@ i{
 
 #first_title{
 
-    margin-top: 2rem;
+    margin-top: 5rem;
     margin-left: 1rem;
     color: hsl(var(--hue-color), 69%, 61%)
     
@@ -110,7 +110,9 @@ i{
     bottom: 60px;
     right: 1rem;
     filter: #6e56e1;
+
   }
+
 
   #scroll_to_top img {
     height:max-content;
@@ -132,8 +134,11 @@ i{
 }
 
 
+
 @media screen and (max-width: 800px)  {
-    
+    #neo_img_computer{
+        display: none;
+    }
 }
 .navbar_computer{
     display: none;

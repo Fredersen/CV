@@ -1,3 +1,4 @@
+<div id="contactme_computer"></div>
 <section class="contact_complete">
 <section class="contact_adress">
 <section class="contactsection" id="contact">
@@ -34,7 +35,7 @@
 </div>
 <hr>
 <?php if (!empty($_GET["fname"])): ?>
-<div id="alert"> <p> Thank you <?=$_GET['fname']?>! Your message has been sent. You have received a confirmation to this adress :  <?=$_GET['email']?> </p></div>
+<div id="alert"> <p class="personalmessage"> Thank you <?=$_GET['fname']?>! Your message has been sent. You have received a confirmation to this adress :  <?=$_GET['email']?> </p></div>
 <?php endif; ?>
 
 <form method="GET" action="#alert" class="contact_form grid" id="contactForm">

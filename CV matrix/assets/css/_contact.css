@@ -98,6 +98,10 @@
     height:40vh;
 }
 
+#contactForm{
+  width: 70%;
+}
+
 /* Bouton envoyé */
 
 #buttonsend, #buttonsend::after {

@@ -12,7 +12,7 @@
       <li id="services_computer" class="li_computer"><a class="navbar_link_computer" href="#servicescomputer">Services
         </a></li>
       <li id="portfolio_computer" class="li_computer"><a class="navbar_link_computer" href="#qualification">Qualification</li>
-      <li id="contact_computer" class="li_computer"><a class="navbar_link_computer" href="#contact">Contact me
+      <li id="contact_computer" class="li_computer"><a class="navbar_link_computer" href="#contactme_computer">Contact me
         </a></li>
     </ul>
   </nav>
@@ -45,4 +45,4 @@
 <div id="scroll_to_top">
   <a href="#header"><i id="fleche" class="uil uil-arrow-circle-up"></i></a>
 </div>
-<div class="matrix _logo"><a href="matrix/matrix.html" class="matrix_mode"><img src="Ressources/icons8-néo.svg" id="neo_img"></a></div>
+<div class="matrix _logo_computer"><a href="matrix/matrix.html" class="matrix_mode"><img src="Ressources/icons8-néo.svg" id="neo_img_computer"></a></div>

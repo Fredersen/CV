@@ -107,6 +107,7 @@ ul{
     }
 
     .grid_computer{
+        z-index: 5;
         display: grid;
         margin-left: 10%;
         margin-right: 10%;
@@ -127,12 +128,13 @@ ul{
         padding-left: 0px;
     }
     #keanu_service{
-        max-width: 800px;
+        max-width: 500px;
+        background-color: transparent;
         display: block;
+        margin-top: 2rem;
         margin-left: auto;
         margin-right: auto ;
-        bottom: 7rem;
-        position:relative;
+        z-index: 1;
         }
 
     .grid_computer.p{
