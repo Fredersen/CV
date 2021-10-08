@@ -39,11 +39,7 @@
 .qualification__subtitle{
     display: inline-block;
     font-size: var(--small-font-size);
-    margin-bottom: var(--mn-1);
-    
-
-    
-    
+    margin-bottom: var(--mn-1);    
 }
 
 .qualification__calendar{
@@ -102,6 +98,10 @@
 
 .qualification__container{
     text-align: center;
+}
+
+.qualification__data i{
+    padding-top: 0%;
 }
 
 /* media querry */

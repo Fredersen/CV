@@ -78,7 +78,7 @@
 *{
     box-sizing: border-box;
     background-color: black;
-    color: green;
+    color: white;
 }
 
 html{
@@ -102,6 +102,11 @@ ul{
 
 a{
     text-decoration: none;
+
+}
+
+p{
+    color: #fff;
 }
 
 img{
@@ -162,6 +167,6 @@ h2{
 }
 
 h3, h4, h5, p{
-    color:  var(--text-color);
+    
     font-size: var(--normal-font-size);
 }
