@@ -127,6 +127,9 @@ i{
     color: var(--first-color);
 }
 
+.matrix_mode{
+    display: none;
+}
 
 
 @media screen and (max-width: 800px)  {
@@ -215,6 +218,14 @@ i{
 }
 header{
     height: 60vh;
+}
+
+.matrix_mode{
+    display: inline-block;
+    position: fixed;
+    right: 0.7rem;
+    bottom: 0.7rem;
+    width: 2rem;
 }
 
 }
