@@ -216,6 +216,7 @@ header{
 }
 
 .matrix_mode{
+    display: inline-block;
     position: fixed;
     right: 0.7rem;
     bottom: 0.7rem;
