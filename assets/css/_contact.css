@@ -97,6 +97,7 @@
     height:40vh;
 }
 
+
 /* Bouton envoyé */
 
 #buttonsend, #buttonsend::after {
@@ -188,7 +189,9 @@
   }
 
   @media (min-width: 800px) {
-    
+  .section__title{
+    margin-top: 3rem;
+  }
 
 }
 

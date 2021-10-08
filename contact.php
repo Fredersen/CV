@@ -1,3 +1,4 @@
+<div id="contactme_computer"></div>
 <section class="contact_complete">
 <section class="contact_adress">
 <section class="contactsection" id="contact">

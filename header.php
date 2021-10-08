@@ -12,7 +12,7 @@
       <li id="services_computer" class="li_computer"><a class="navbar_link_computer" href="#servicescomputer">Services
         </a></li>
       <li id="portfolio_computer" class="li_computer"><a class="navbar_link_computer" href="#qualification">Qualification</li>
-      <li id="contact_computer" class="li_computer"><a class="navbar_link_computer" href="#contact">Contact me
+      <li id="contact_computer" class="li_computer"><a class="navbar_link_computer" href="#contactme_computer">Contact me
         </a></li>
     </ul>
   </nav>
