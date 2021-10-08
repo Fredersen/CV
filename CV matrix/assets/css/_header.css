@@ -221,11 +221,12 @@ header{
 }
 
 .matrix_mode{
-    display: inline-block;
+    display: block;
     position: fixed;
     right: 0.7rem;
     bottom: 0.7rem;
     width: 2rem;
 }
+
 
 }
