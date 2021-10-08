@@ -1,6 +1,6 @@
 <header id="header">
   <nav class="navbar_computer">
-    <p class="title_computer">Thomas Andersen
+    <p class="title_computer">Neo
     <p>
     <ul class="ul_computer">
       <li id="home_menu_computer" class="li_computer"><a class="navbar_link_computer" href="#header">Home
