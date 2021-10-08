@@ -87,6 +87,7 @@ h3{
     }
 
     .grid_computer{
+        z-index: 5;
         display: grid;
         margin-left: 10%;
         margin-right: 10%;
@@ -108,10 +109,12 @@ h3{
     }
     #keanu_service{
         max-width: 800px;
+        background-color: transparent;
         display: block;
         margin-left: auto;
         margin-right: auto ;
         bottom: 7rem;
         position:relative;
+        z-index: 1;
         }
 }
