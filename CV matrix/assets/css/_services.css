@@ -12,16 +12,34 @@ h3{
     
 }
 
+h4{
+    background-color: hsl(var(--hue-color), 69%, 61%);
+    color: black;
+}
+
+ul{
+    background-color: hsl(var(--hue-color), 69%, 61%);
+    color: black;
+}
+
+
+
+.popup p{
+    background-color: hsl(var(--hue-color), 69%, 61%);
+    color: black;
+}
+
 
 /* style pour bouton popup */
+
 .btnPopup{
-    color: white;
+    color: black;
     font-weight: bold;
     background-color: hsl(var(--hue-color), 69%, 61%);
     padding: 1em 2em;
     cursor: pointer;
     border: 0px;
-    box-shadow: 3px 5px 5px #hsl(var(--hue-color), 69%, 61%);
+    box-shadow: 3px 5px 5px hsl(var(--hue-color), 69%, 61%);
     border-radius: 16px;
     transition: 0.5s;
     display: block;
@@ -49,7 +67,7 @@ h3{
 .popup{
    margin: 10% auto;
     width : 70%;
-    background-color: rgb(243, 243, 243);
+    background-color: hsl(var(--hue-color), 69%, 61%);
     padding: 1em;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -62,7 +80,9 @@ h3{
     float: right;
     font-size:16pt;
     cursor: pointer;
-    color: hsl(var(--hue-color), 69%, 61%);
+    color: black;
+    background-color: hsl(var(--hue-color), 69%, 61%);
+    border: none;
 }
 
 /* modification de naim */
@@ -116,4 +136,9 @@ h3{
         margin-right: auto ;
         z-index: 1;
         }
+
+    .grid_computer.p{
+        background-color: hsl(var(--hue-color), 69%, 61%);
+        color: black;
+    }
 }

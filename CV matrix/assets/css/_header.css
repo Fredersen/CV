@@ -110,7 +110,9 @@ i{
     bottom: 60px;
     right: 1rem;
     filter: #6e56e1;
-}
+
+  }
+
 
   #scroll_to_top img {
     height:max-content;
@@ -166,13 +168,13 @@ i{
     background-color: hsl(var(--hue-color), 69%, 61%);
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .title_computer{
     background-color: hsl(var(--hue-color), 69%, 61%);
     text-decoration: none;
-    color: white;
+    color: black;
     margin-left: 1rem;
     font-weight: bold;
 }

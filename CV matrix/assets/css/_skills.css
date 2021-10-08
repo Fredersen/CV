@@ -27,7 +27,7 @@
 
 .skills_subtitle{
     font-size: var(--small-font-size);
-    color: var(--text-color-light);
+    color: white;
 }
 
 .skills_arrow{
@@ -58,7 +58,7 @@
 }
 
 .skills_bar{
-    background-color: var(--first-color-lighter);
+    background-color: white;
 }
 
 .skills_percentage{
