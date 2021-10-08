@@ -6,7 +6,7 @@
     <div class="grid_computer">
     <div class="Dev Front">
         <!---------------------------- DEV FRONT ------------------------------------>
-        <h3>Dev Front</h3>
+        <h3 class="title_service">Dev Front</h3>
         <button class="btnPopup" data-overlay="overlay1">View more... </button>
         <div id="overlay1" class="overlay">
             <div class="popup">
@@ -28,7 +28,7 @@
     </div>
     <div class="Dev Back">
         <!---------------------------- DEV BACK ------------------------------------>
-        <h3>Dev Back</h3>
+        <h3 class="title_service">Dev Back</h3>
         <button class="btnPopup" data-overlay="overlay2">View more...</button>
         <div id="overlay2" class="overlay">
             <div class="popup">
@@ -49,24 +49,24 @@
     </div>
     <ul class="text_service_computer">
                     <li>
-                        <p>User interface.</p>
+                        <p class="fondnoir">User interface.</p>
                     </li>
                     <li>
-                        <p>Web page development.</p>
+                        <p class="fondnoir">Web page development.</p>
                     </li>
                     <li>
-                        <p>UX elements interactions.</p>
+                        <p class="fondnoir">UX elements interactions.</p>
                     </li>
                 </ul>
                 <ul class="text_service_computer">
                     <li>
-                        <p>User interface.</p>
+                        <p class="fondnoir">User interface.</p>
                     </li>
                     <li>
-                        <p>Web page development.</p>
+                        <p class="fondnoir">Web page development.</p>
                     </li>
                     <li>
-                        <p>UX elements interactions.</p>
+                        <p class="fondnoir">UX elements interactions.</p>
                     </li>
                 </ul>
     </div>

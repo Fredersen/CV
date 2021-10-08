@@ -100,6 +100,10 @@ ul{
     display: none;
 }
 
+.title_service{
+    color: white;
+}
+
 @media screen and (min-width: 800px) {
     #servicescomputer{
         display: block;
@@ -141,4 +145,10 @@ ul{
         background-color: hsl(var(--hue-color), 69%, 61%);
         color: black;
     }
+
+    .fondnoir{
+        background-color: #85e057;
+        color: black;
+    }
+
 }
